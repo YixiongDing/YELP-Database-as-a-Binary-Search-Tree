@@ -1,3 +1,16 @@
 Author: Yixiong Ding <yixiongd@student.unimelb.edu.au>
 Date: 12 September, 2016
 The University of Melbourne 
+
+There are two stages, in each stage there is a dictionary implemented int the C programming
+language. A binary search tree will be the underlying data structure for both stages.
+
+Directions:
+
+1. Use command 'make' to create the executable file 'yelp1' or 'yelp2'.
+
+2. The program yelp1 takes two command line arguments: the first argument is the name of the data file used to build the dictionary; the second argument is the name of the output file, containing the data located in the searches. The file consists of an unspecified number of records, one per line, where the format of each record is: <name> <data>
+
+3. For yelp1, the information contained in the file specified in the command line argument is stored on a binary search tree. Each record is stored in a separate Node.
+
+4. User can search the binary search tree for records, based on their keys. The keys are read in from stdin.
